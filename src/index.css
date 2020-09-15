@@ -1,5 +1,5 @@
 /* styling for header & home div */
-header h1, div.home{
+   header h1, div.home {
     display: flex;
     justify-content: center;
   }
