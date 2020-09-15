@@ -1,0 +1,203 @@
+/* styling for header & home div */
+header h1, div.home{
+    display: flex;
+    justify-content: center;
+  }
+  /* select button styling */
+   select.select{
+    height: 100%;
+    margin-top:35px;
+    background-color: #000000;
+    color: whitesmoke;
+  } 
+  /* styling for main page */
+  main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  /* styling for expanded view & functionality */
+  .expands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* styling for bookmark list & functionality */
+  .list{
+    display: flex;
+    background-color: #0075f2;
+    border: solid #000000;
+    flex-direction: column;
+    margin: 1% 10%;
+    justify-content: center;
+  }
+  
+  /* styling for the 'radio' buttons */
+  .radio{
+    display: flex;
+    flex-direction: column;
+  }
+  /* form styling */
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* styling for bookmark details  */
+  .item, .expand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* styling for set column & rows  */
+    div.column, div.row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;   
+    }
+  /* functionality for detailed view of bookmarks */
+  .expand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* styling for home page */
+  .all, div.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* styling for the unordered list */
+  div.list label, div.list input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* styling for editing name of bookmark */
+  .changeName {
+    width:210px;
+  }
+  /* styling for editing bookmark rating */
+  .changeRating{
+    width: 80px;
+  }
+  /* styling for bookmark details */
+  label, div.item{
+    font-size: 20px;
+  }
+  
+  textarea {
+    display: flex;
+    flex:2;
+  }
+  
+  
+  
+  /* bulk of styles below */
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* most text area stylings */
+  h1, h3, input, textarea, ::placeholder, label, div.item{
+    color: #000000
+  }
+  /* colors & font colors for detailed bookmark view */
+  div.expands label, div.expand{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  /* main body */
+  body, textarea, input{
+    background-color: #ffeaee;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  form textarea, form input{
+    background-color: #0075f2;
+    font-size: 20px;
+  }
+  
+  .expand, .expands{
+    background-color: #7f675b;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for buttons */
+  button.new, button.create, button.cancel, .button, button.edit, button.changeVals, button.delete {
+    padding: 10px 16px;
+    border: solid #000000;
+    background-color: #ffeaee;
+    color: #096b72;
+    font-family: 'Julee', cursive;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+  }
+  button:hover{background-color:black}
+  .button:hover{background-color:black}
+  /* styling for warning message box */
+  .warning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  /* styling for submit button */
+  #confirm {
+    display: none;
+    background-color: #0075f2;
+    color: #000000;
+    border: 1px solid #aaa;
+    position: fixed;
+    left: 10%;
+    top: 40%;
+    box-sizing: border-box;
+  }
+  /* styling for closing error message  */
+  button.yes {
+    background-color: #0075f2;
+    display: inline-block;
+    border-radius: 12px;
+    border: 4px solid #aaa;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 20%;
+  }
+  /* styling for confimation message */
+  #confirm .message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+
+  /* --- Media queries  ---- */
+  /* for mobile first responsive design */
+  @media all and (min-width: 800px){
+  
+    .list {
+      margin: 1% 20%;
+    }
+  
+    div.home {
+      flex-direction: row;
+    }
+  
+     div.expand{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--output/exit point for app-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Bookmark App</title>
+</head>
+<body>
+<header>
+    
+  <h1>Bookmark App</h1>
+</header>
+<main>
+<!--main div class-->
+<div class = "main">
+    <!--add button for adding a new bookmark-->
+  <button class = 'add'>Add Bookmark</button>
+  <!--star-rating for a 1-5 rating when adding or editing bookmarks-->
+  <select class ='select' name="star-rating" size= '1'>
+      <!--star-rating for a 1-5 rating when adding or editing bookmarks-->
+    <option  value="0" disabled selected hidden>Star Rating</option>
+    <option  value="5">5 Stars ⭐⭐⭐⭐⭐</option>
+    <option  value="4">4 Stars ⭐⭐⭐⭐✰</option>
+    <option  value="3">3 Stars ⭐⭐⭐✰✰</option>
+    <option  value="2">2 Stars ⭐⭐✰✰✰</option>
+    <option  value="1">1 Star ⭐✰✰✰✰</option>
+  </select>
+</div>
+<!--unordered list for holding added bookmarks-->
+  <ul>
+   
+  </ul>
+
+
+
+</main>
+<!--div for holding the submit option-->
+<div id="confirm">
+    <!--div for error messages-->
+  <div class= "signal">
+      <!--div for messages-->
+  <div class="report"></div><br>
+  <!--div for closing out error message-->
+  <button class="yes">My Bad</button>
+</div>
+</div>
+
+<script type="text/javascript" src="index_bundle.js"></script></body>
+</html>

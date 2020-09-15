@@ -1,0 +1,14 @@
+{
+  "name": "bookapp",
+  "version": "1.0.0",
+  "description": "https://timmahoney2000.github.io/BookApp/",
+  "main": "webpack.configure.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
